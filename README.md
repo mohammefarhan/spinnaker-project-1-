@@ -14,11 +14,11 @@ A Streamlit web application for real-time salary prediction
 
 A Power BI dashboard for salary trend analysis
 
-🎯 Problem Statement
+**🎯 Problem Statement**
 
 To build a machine learning model that predicts the expected salary for NYC government job postings based on job-related attributes and descriptions.
 
-🧾 Dataset
+**🧾 Dataset**
 
 Source: NYC Government Job Postings
 
@@ -42,7 +42,7 @@ Deployment: Streamlit
 
 Visualization: Power BI
 
-🔄 Project Workflow
+**🔄 Project Workflow**
 
 Data Cleaning & Preprocessing
 
@@ -58,7 +58,7 @@ Model Selection & Saving
 
 Deployment using Streamlit
 
-🤖 Machine Learning Models
+**🤖 Machine Learning Models**
 
 The following models were trained and evaluated:
 
@@ -76,7 +76,8 @@ Highest R² score
 
 Best tolerance-based accuracy
 
-📊 Evaluation Metrics
+**💼 Salary Prediction System**
+
 
 Since this is a regression problem, the following metrics were used:
 
@@ -86,7 +87,7 @@ R² Score
 
 Accuracy (±10%) – percentage of predictions within ±10% of actual salary
 
-🚀 Deployment
+**🚀 Deployment**
 
 The final model is deployed using Streamlit, allowing users to:
 
@@ -98,7 +99,7 @@ Receive predicted salary along with an expected range
 
 The Streamlit app uses a pre-trained model and does not require the original dataset.
 
-📂 Project Structure
+  📂 Project Structure
 salary-prediction-system/
 │
 ├── app.py                       # Streamlit application
@@ -107,12 +108,12 @@ salary-prediction-system/
 ├── requirements.txt
 ├── README.md
 
-▶️ How to Run the Application
-1️⃣ Install dependencies
-pip install -r requirements.txt
+               ▶️ How to Run the Application
+               1️⃣ Install dependencies
+                pip install -r requirements.txt
 
-2️⃣ Run Streamlit app
-streamlit run app.py
+               2️⃣ Run Streamlit app
+                streamlit run app.py
 
 📈 Power BI Dashboard
 
@@ -128,8 +129,7 @@ Salary distribution and variability
 
 This complements the machine learning model with business-focused insights.
 
-🔮 Future Enhancements
-
+**🔮 Future Enhancements**
 Integrate advanced NLP models
 
 Automate hyperparameter tuning
@@ -143,4 +143,4 @@ Improve UI and add confidence intervals
 👨‍💻 Developed By
 
 Farhan
-Machine Learning / Data Science Intern
+Machine Learning / Data Science 
